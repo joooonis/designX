@@ -1,6 +1,6 @@
 import TypeIt from 'typeit';
-new TypeIt('#element', {
-  strings: '미래와 함께 떠나요!',
-  speed: 75,
+new TypeIt('#title', {
+  strings: 'This is a story of MIRAE',
+  speed: 150,
   loop: false,
 }).go();
