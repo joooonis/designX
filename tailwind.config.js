@@ -2,7 +2,11 @@
 export default {
   content: ['./src/**/*.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Gmarket: ['GmarketSans', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
