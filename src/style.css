@@ -4,4 +4,16 @@
 
 body {
   background-color: #ebebeb;
+  overflow: hidden;
+}
+
+.snowflake {
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(
+    #ebebeb,
+    #ebebeb
+  ); /* Workaround for Chromium's selective color inversion */
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px white);
 }
