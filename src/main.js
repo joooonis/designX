@@ -4,13 +4,21 @@ textWrapper.innerHTML = textWrapper.textContent.replace(
   "<span class='letter'>$&</span>"
 );
 
-anime.timeline({ loop: false }).add({
-  targets: '.title .letter',
-  opacity: [0, 1],
-  easing: 'easeInOutQuad',
-  duration: 1000,
-  delay: (el, i) => 50 * (i + 1),
-});
+anime
+  .timeline({ loop: false })
+  .add({
+    targets: '.title .letter',
+    opacity: [0, 1],
+    easing: 'easeInOutQuad',
+    duration: 1000,
+    delay: (el, i) => 50 * (i + 1),
+  })
+  .add({
+    targets: '.enter-button',
+    opacity: [0, 1],
+    easing: 'easeInOutQuad',
+    duration: 1000,
+  });
 
 // leaf animation
 anime({
