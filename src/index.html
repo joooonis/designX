@@ -10,28 +10,34 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
     <title>MIRAE</title>
   </head>
-  <body class="font-Raleway">
+  <body class="font-NanumMyeongjo">
     <div
       class="relative overflow-hidden bg-gradient-to-b from-[rgba(255,244,228,1)] to-[rgba(240,246,238,1)] from-[7%] to-70% flex-col justify-center items-center h-[calc(100vh-2.5rem)] m-5"
     >
       <div
-        class="w-full absolute top-20 text-[#403227] title text-xl my-auto font-normal text-center"
+        class="w-full absolute top-20 text-[#403227] title text-xl my-auto font-medium text-center"
       >
         The story of a liite dugeong, MIRAE
       </div>
-      <div class="absolute -bottom-1 left-16 leaf_1">
-        <image src="./assets/svg/leaf-green-1.svg" width="40" />
+      <!-- <div class="flex justify-center items-center">
+        <image src="./assets/png/logo.png" width="200" />
+      </div> -->
+      <div class="absolute -bottom-1 left-16">
+        <image class="leaf-1" src="./assets/svg/leaf-green-1.svg" width="40" />
       </div>
-      <div class="absolute -bottom-1 right-16 leaf_2">
+      <div class="absolute -bottom-1 right-16 leaf-2">
         <image src="./assets/svg/leaf-green-2.svg" width="10" />
       </div>
-      <div class="absolute -bottom-1 right-24 leaf_3">
+      <div class="absolute -bottom-1 right-24 leaf-3">
         <image src="./assets/svg/leaf-green-3.svg" width="16" />
       </div>
-
-      <!-- <div id="bounceBall"></div> -->
       <div class="relative" id="snow"></div>
     </div>
     <script type="module" src="./main.js"></script>
