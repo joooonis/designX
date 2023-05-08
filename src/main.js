@@ -28,3 +28,24 @@ anime.timeline({ loop: false }).add({
     }).play();
   },
 });
+
+anime({
+  targets: '.leaf_1',
+  rotate: [
+    { value: '10deg', duration: 2000 },
+    { value: '5deg', duration: 1000 },
+    { value: '0deg', duration: 1000 },
+  ],
+  easing: 'easeInOutSine',
+  loop: true,
+});
+
+anime({
+  targets: '.leaf_2',
+  rotate: [
+    { value: '5deg', duration: 1000 },
+    { value: '0deg', duration: 1000 },
+  ],
+  easing: 'easeInOutSine',
+  loop: true,
+});

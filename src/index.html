@@ -14,17 +14,24 @@
   </head>
   <body class="font-Raleway">
     <div
-      class="relative bg-gradient-to-b from-[rgba(255,244,228,1)] to-[rgba(240,246,238,1)] from-[7%] to-70% flex justify-center h-[calc(100vh-2.5rem)] m-5"
+      class="relative overflow-hidden bg-gradient-to-b from-[rgba(255,244,228,1)] to-[rgba(240,246,238,1)] from-[7%] to-70% flex-col justify-center items-center h-[calc(100vh-2.5rem)] m-5"
     >
-      <div class="title text-4xl my-auto font-extralight text-center">
-        This is story of MIRAE
+      <div
+        class="w-full absolute top-20 title text-lg my-auto font-normal text-center"
+      >
+        The story of a liite dugeong, MIRAE
       </div>
-      <div class="absolute bottom-0">
-        <image src="./assets/svg/leaf.svg" width="60" />
+      <div class="absolute bottom-0 left-16 leaf_1">
+        <image src="./assets/svg/leaf-green-1.svg" width="40" />
+      </div>
+      <div class="absolute -bottom-1 right-16 leaf_2">
+        <image src="./assets/svg/leaf-green-2.svg" width="10" />
       </div>
       <div id="bounceBall"></div>
+      <div class="relative" id="snow"></div>
     </div>
     <script type="module" src="./main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="./assets/snow/PureSnow.js"></script>
   </body>
 </html>
