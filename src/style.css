@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --ti-cursor-color: transparent;
-}
-
 body {
   background-color: #ebebeb;
 }
