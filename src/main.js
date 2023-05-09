@@ -14,12 +14,11 @@ anime
     delay: (el, i) => 50 * (i + 1),
   })
   .add({
-    targets: '.enter-button',
+    targets: '.reveal',
     opacity: [0, 1],
     easing: 'easeInOutQuad',
     duration: 1000,
   });
-
 // leaf animation
 anime({
   targets: '.leaf-1',
