@@ -8,6 +8,9 @@ export default {
         Balsamiq: ['Balsamiq Sans', 'rsive'], // 영문 폰트
         NanumMyeongjo: ['Nanum Myeongjo', 'serif'], // 영문 폰트
       },
+      backgroundImage: {
+        mirae: "url('./src/assets/mirae/background.png')",
+      },
     },
   },
   plugins: [],
