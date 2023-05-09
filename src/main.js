@@ -50,8 +50,37 @@ anime({
 });
 
 anime({
-  targets: '.loop-infinity',
-  translateX: 270,
+  targets: '.fin-1',
+  rotate: [
+    { value: '-5deg', duration: 2000 },
+    { value: '0deg', duration: 2000 },
+    { value: '5deg', duration: 2000 },
+    { value: '0deg', duration: 2000 },
+  ],
+  loop: true,
+  easing: 'easeInOutSine',
+});
+
+anime({
+  targets: '.fin-2',
+  skewX: [
+    { value: '-5deg', duration: 2000 },
+    { value: '0deg', duration: 2000 },
+    { value: '5deg', duration: 2000 },
+    { value: '0deg', duration: 2000 },
+  ],
+  loop: true,
+  easing: 'easeInOutSine',
+});
+
+anime({
+  targets: '.fin-3',
+  skewX: [
+    { value: '7deg', duration: 2000 },
+    { value: '0deg', duration: 2000 },
+    { value: '-7deg', duration: 2000 },
+    { value: '0deg', duration: 2000 },
+  ],
   loop: true,
   easing: 'easeInOutSine',
 });
